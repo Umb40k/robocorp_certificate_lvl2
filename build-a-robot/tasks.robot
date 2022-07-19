@@ -49,6 +49,7 @@ Insert orders to system, produce receipts and a summary ZIP
 
 *** Keywords ***
 Get csv url
+    #These are for using Vault locally and don't work with assistant!
     #${csv_url}=    Get Secret    cert2address
     #Download the csv file    ${csv_url}[value]
     Download the csv file    https://robotsparebinindustries.com/#/robot-order
